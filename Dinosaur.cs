@@ -12,7 +12,7 @@ namespace RobotsVS.Dinosaurs
         public string type;
         public int health;
         public int energy;
-        //attack power
+        
 
         //Constructor
 

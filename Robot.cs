@@ -13,7 +13,7 @@ namespace RobotsVS.Dinosaurs
         public int health;
         public int powerLevel;
         public Weapon weapon;
-        //attack power
+        
 
         //Constructor
 

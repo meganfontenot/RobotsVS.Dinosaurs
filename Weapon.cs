@@ -9,6 +9,8 @@ namespace RobotsVS.Dinosaurs
     class Weapon
     {
         //MemberVariables "Has A"
+        public string type;
+        public int attackPower;
 
         //Constructor
 
