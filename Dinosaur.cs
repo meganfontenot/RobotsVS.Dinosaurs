@@ -8,5 +8,14 @@ namespace RobotsVS.Dinosaurs
 {
     class Dinosaur
     {
+        //MemberVariables "Has A"
+        public string type;
+        public int health;
+        public int energy;
+        //attack power
+
+        //Constructor
+
+        //MemberMethods "Can Do"
     }
 }

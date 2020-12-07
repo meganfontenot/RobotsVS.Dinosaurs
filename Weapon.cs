@@ -8,5 +8,10 @@ namespace RobotsVS.Dinosaurs
 {
     class Weapon
     {
+        //MemberVariables "Has A"
+
+        //Constructor
+
+        //MemberMethods "Can Do"
     }
 }

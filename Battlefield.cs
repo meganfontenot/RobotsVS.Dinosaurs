@@ -8,5 +8,10 @@ namespace RobotsVS.Dinosaurs
 {
     class Battlefield
     {
+        //MemberVariables "Has A"
+
+        //Constructor
+
+        //MemberMethods "Can Do"
     }
 }
