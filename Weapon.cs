@@ -13,6 +13,13 @@ namespace RobotsVS.Dinosaurs
         public int attackPower;
 
         //Constructor
+        public Weapon (string type)
+        {
+            this.type = type;
+            Random random = new Random();
+            attackPower = random.Next(1, 10);
+
+        }
 
         //MemberMethods "Can Do"
     }

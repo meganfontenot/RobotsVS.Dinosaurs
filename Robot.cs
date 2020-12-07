@@ -16,11 +16,12 @@ namespace RobotsVS.Dinosaurs
         
 
         //Constructor
-        public Robot(string name)
+        public Robot(string name, string battleWeapon)
         {
             this.name = name;
             health = 100;
             powerLevel = 10;
+            weapon = new Weapon(battleWeapon);
         }
 
         //MemberMethods "Can Do"
