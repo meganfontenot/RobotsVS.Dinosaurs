@@ -15,6 +15,13 @@ namespace RobotsVS.Dinosaurs
         
 
         //Constructor
+        public Dinosaur(string type)
+        {
+            this.type = type;
+            health = 100;
+            energy = 50;
+
+        }
 
         //MemberMethods "Can Do"
     }
