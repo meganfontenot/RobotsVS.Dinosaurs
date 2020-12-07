@@ -10,7 +10,10 @@ namespace RobotsVS.Dinosaurs
     {
         static void Main(string[] args)
         {
-            //Robot robot = new Robot("K2SO", "Blaster");
+            //Dinosaur dinosaur = new Dinosaur("Rexy");
+            //Fleet fleet = new Fleet();
+            //Herd herd = new Herd();
+
         }
     }
 }
