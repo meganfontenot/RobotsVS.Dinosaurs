@@ -25,5 +25,9 @@ namespace RobotsVS.Dinosaurs
         }
 
         //MemberMethods "Can Do"
+        public void Attack(Dinosaur dinoBattle)
+        {
+            dinoBattle.health -= weapon.attackPower;
+        }
     }
 }
