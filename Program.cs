@@ -14,6 +14,9 @@ namespace RobotsVS.Dinosaurs
             //Fleet fleet = new Fleet();
             //Herd herd = new Herd();
 
+            Battlefield battlefield = new Battlefield();
+            battlefield.Battle();
+
         }
     }
 }

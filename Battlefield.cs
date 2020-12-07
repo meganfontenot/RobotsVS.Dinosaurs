@@ -48,6 +48,14 @@ namespace RobotsVS.Dinosaurs
             }
 
             //Break loop game over check score
+            if (herd.dinoHerd.Count > 0)
+            {
+                Console.WriteLine("Skynet for the win");
+            }
+            else
+            {
+                Console.WriteLine("Catch these T-rex hands");
+            }
             
 
 
