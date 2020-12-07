@@ -10,6 +10,7 @@ namespace RobotsVS.Dinosaurs
     {
         static void Main(string[] args)
         {
+            //Robot robot = new Robot("K2SO", "Blaster");
         }
     }
 }

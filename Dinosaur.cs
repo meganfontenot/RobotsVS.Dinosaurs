@@ -12,6 +12,7 @@ namespace RobotsVS.Dinosaurs
         public string type;
         public int health;
         public int energy;
+        public int attackPower;
         
 
         //Constructor
@@ -20,6 +21,8 @@ namespace RobotsVS.Dinosaurs
             this.type = type;
             health = 100;
             energy = 50;
+            Random random = new Random();
+            attackPower = random.Next(1, 10);
 
         }
 
