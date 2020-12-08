@@ -30,17 +30,17 @@ namespace RobotsVS.Dinosaurs
 
             while (herd.dinoHerd.Count > 0 && fleet.robotFleet.Count > 0) //their is atleast one dino/robot
             {
-                //Need to access Robot inside of Fleet and Attack() Dino inside of Herd
+                //Need to access Robot inside of Fleet and Attack() Dino inside of Herd at 0 index
                 fleet.robotFleet[0].Attack(herd.dinoHerd[0]);
-                if (herd.dinoHerd[0].health == 0) //health reached 0
+                if (herd.dinoHerd[0].health <= 0) //health reached 0
                 {
                     //remove from list
                     herd.dinoHerd.RemoveAt(0);
                 }
 
-                //Need to access Dino inside of Herd and Attack() Robot inside of Fleet
+                //Need to access Dino inside of Herd and Attack() Robot inside of Fleet at 0 index
                 herd.dinoHerd[0].Attack(fleet.robotFleet[0]);
-                if (fleet.robotFleet[0].health == 0) //health reached 0
+                if (fleet.robotFleet[0].health <= 0) //health reached 0
                 {
                     //remove from list
                     fleet.robotFleet.RemoveAt(0);

@@ -21,9 +21,10 @@ namespace RobotsVS.Dinosaurs
             this.type = type;
             health = 100;
             energy = 50;
+            //Helper.GenerateRandomNumber();
             Random random = new Random();
             attackPower = random.Next(1, 10);
-
+            
         }
 
         //MemberMethods "Can Do"
